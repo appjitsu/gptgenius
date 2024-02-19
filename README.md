@@ -1,3 +1,11 @@
+## Demo
+
+[--->](https://gptgenius-b537b5568-appjitsu.vercel.app/tours/new-tour)
+
+## About
+
+GPTGenius is a POC app for using OpenAI to generate chat responses and tour info. Also uses Clerk for authentication.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
