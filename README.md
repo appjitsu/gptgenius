@@ -1,6 +1,6 @@
 ## Demo
 
-[--->](https://gptgenius-b537b5568-appjitsu.vercel.app/tours/new-tour)
+[--->](https://gptgenius-b537b5568-appjitsu.vercel.app)
 
 ## About
 
