@@ -1,6 +1,4 @@
-## Demo
-
-[--->](https://gptgenius-b537b5568-appjitsu.vercel.app)
+[View the Demo](https://gptgenius-b537b5568-appjitsu.vercel.app)
 
 ## About
 
