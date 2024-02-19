@@ -7,7 +7,8 @@ const HomePage = () => {
         <div className="max-w-md">
           <h1 className="text-6xl font-bold text-primary">GPTGenius</h1>
           <p className="py-6 text-lg leading-loose">
-            GPTGenius is a web app that uses OpenAI's GPT-3 to generate content.
+            GPTGenius is a web app that uses OpenAI&apos;s GPT-3 to generate
+            content.
           </p>
           <Link
             href="/chat"

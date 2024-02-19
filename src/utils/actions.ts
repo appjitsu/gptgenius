@@ -53,8 +53,6 @@ export const generateTourResponse = async ({ city, country }: Destination) => {
       "stops" property should include only three stops.
       If you can't find info on exact ${city}, return { "tour": null }, with no additional characters. Be careful with typos inside the JSON structure like extra commas after arrays last item, this info will be parsed with a JSON.parse() method.`;
 
-    console.log("query", query);
-
     const response = await openai.chat.completions.create({
       messages: [
         {
@@ -67,10 +65,8 @@ export const generateTourResponse = async ({ city, country }: Destination) => {
       temperature: 0,
       max_tokens: 1000,
     });
-    console.log("response", response.choices[0].message);
 
     const tourData = JSON.parse(response.choices[0].message.content as string);
-    console.log("tourData", tourData);
 
     if (!tourData.tour) {
       return null;
